@@ -5,8 +5,6 @@
 ## Características  
 - **Consulta de películas**: Realiza búsquedas en una API de películas y obtiene información detallada como título, género, año de lanzamiento, entre otros.  
 - **Almacenamiento en JSON**: Guarda los resultados de las consultas en un archivo JSON para un acceso fácil y organizado.  
-- **Modo offline**: Accede a los datos previamente almacenados incluso sin conexión a internet.  
-- **Interfaz amigable**: Una experiencia sencilla mediante línea de comandos o GUI, según se implemente.  
 
 ## Requisitos  
 - **Java 11 o superior**  
