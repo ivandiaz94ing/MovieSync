@@ -11,11 +11,11 @@
 ## Requisitos  
 - **Java 11 o superior**  
 - Librerías necesarias:  
-  - `OkHttp` o `HttpClient` para el consumo de APIs REST.  
-  - `Gson` o `Jackson` para la manipulación de archivos JSON.  
+  - `HttpClient` para el consumo de APIs REST.  
+  - `Gson` para la manipulación de archivos JSON.  
 
 ## Instalación  
 1. Clona este repositorio:  
    ```bash  
-   git clone https://github.com/tu_usuario/MovieSync.git  
+   git clone https://github.com/ivandiaz94ing/MovieSync.git  
 
