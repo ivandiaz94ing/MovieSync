@@ -10,11 +10,11 @@ import java.util.List;
 
 public class ManejoArchivo {
 
-    public void copiarArchivo (List<Serie> lista){
+    public void copiarArchivo (Serie serie){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
-            FileWriter archivo = new FileWriter("peliculas.json");
-            archivo.write(gson.toJson(lista));
+            FileWriter archivo = new FileWriter(serie.title()+".json");
+            archivo.write(gson.toJson(serie));
             archivo.close();
             System.out.println("Archivo JSON creado exitosamente.");
         } catch (IOException e) {
